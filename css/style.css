@@ -1,5 +1,5 @@
 /* =========================================================
-   КОНТРАКТ СВО — Плакатно-героический (конструктивизм)
+   СВОиКОНТРАКТ — Плакатно-героический (конструктивизм)
    ========================================================= */
 
 :root {
@@ -146,7 +146,7 @@ h1, h2, h3, h4, .display {
 }
 .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background: url('../assets/images/hero-bg.jpg') center/cover no-repeat;
+  background: url('../assets/images/hero-bg.png') center/cover no-repeat;
   opacity: .22;
 }
 .hero-bg::after {
@@ -188,6 +188,14 @@ h1, h2, h3, h4, .display {
   white-space: nowrap;
 }
 .hero-stat span { font-size: 13px; color: #b8b2a6; text-transform: uppercase; letter-spacing: 1px; }
+.hero-stat b a { color: inherit; text-decoration: none; }
+.hero-stat b a:hover { color: var(--c-gold-2); }
+.hero-stat--phone b { font-size: clamp(18px, 2vw, 24px); color: var(--c-red); }
+.hero-stat--phone b a { color: var(--c-red); }
+.hero-stat--phone b a:hover { color: var(--c-red-deep); }
+.hero-stat--phone span { font-size: 11px; text-transform: none; letter-spacing: .3px; color: var(--c-red); max-width: 220px; }
+.hero-cta-row { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+.hero-cta-note { font-size: 14px; color: #cfc9bd; font-weight: 600; }
 .hero-note { font-size: 13px; color: #8e887d; margin-top: 18px; }
 
 .hero-figure { position: relative; align-self: stretch; }
@@ -481,6 +489,7 @@ h1, h2, h3, h4, .display {
 .cont-card .cont-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #8a8276; }
 .cont-card .cont-value { font-family: var(--font-display); font-weight: 600; font-size: 19px; color: var(--c-ink); }
 .cont-card a.cont-value:hover { color: var(--c-red); }
+.cont-person { margin-top: 6px; font-family: var(--font-display); font-weight: 700; text-transform: uppercase; letter-spacing: 1px; font-size: 15px; color: var(--c-red); }
 .cont-card.full { grid-column: 1 / -1; }
 .cont-map { position: relative; }
 .cont-map img,
@@ -492,6 +501,17 @@ h1, h2, h3, h4, .display {
   letter-spacing: 1px; font-size: 13px;
 }
 .map-address b { color: var(--c-gold); }
+.map-contact { margin-top: 14px; }
+.map-phone-row { display: flex; align-items: baseline; flex-wrap: wrap; gap: 12px; }
+.map-name {
+  font-family: var(--font-display); font-weight: 700; text-transform: uppercase;
+  letter-spacing: 1px; font-size: 20px; color: #fff;
+}
+.map-phone {
+  font-family: var(--font-display); font-weight: 700;
+  font-size: 26px; letter-spacing: 1px; color: var(--c-red);
+}
+.map-note { margin-top: 8px; font-size: 13px; color: #b8b2a6; line-height: 1.5; }
 .map-link {
   display: inline-block; margin-top: 14px;
   font-family: var(--font-display); font-weight: 600; text-transform: uppercase;
