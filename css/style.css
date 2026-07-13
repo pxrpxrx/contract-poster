@@ -192,7 +192,7 @@ h1, h2, h3, h4, .display {
 .hero-stat--phone b { font-size: clamp(26px, 3vw, 38px); color: var(--c-red); }
 .hero-stat--phone b a { color: var(--c-red); }
 .hero-stat--phone b a:hover { color: var(--c-red-deep); }
-.hero-stat--phone span { font-size: 11px; text-transform: uppercase; letter-spacing: .8px; color: var(--c-red); line-height: 1.15; }
+.hero-stat--phone span { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--c-red); line-height: 1.15; white-space: nowrap; }
 .hero-cta-row { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .hero-cta-note { font-size: 14px; color: #cfc9bd; font-weight: 600; }
 .hero-note { font-size: 13px; color: #8e887d; margin-top: 18px; }
