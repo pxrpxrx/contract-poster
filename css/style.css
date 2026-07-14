@@ -628,6 +628,9 @@ h1, h2, h3, h4, .display {
    RESPONSIVE
    ========================================================= */
 @media (max-width: 980px) {
+  .hero-stats { flex-wrap: wrap; gap: 22px 36px; }
+  .hero-stat { flex: 1 1 auto; min-width: 0; }
+  .hero-stat--phone span { white-space: normal; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-figure { display: none; }
   .nav-links { display: none; }
