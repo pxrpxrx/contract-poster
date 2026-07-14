@@ -116,6 +116,7 @@ h1, h2, h3, h4, .display {
 }
 .brand .star { width: 20px; height: 20px; background: var(--c-gold); }
 .brand .accent { color: var(--c-red); }
+.brand .brand-i { font-size: .6em; letter-spacing: 0; vertical-align: baseline; }
 
 .nav-links { display: flex; gap: 4px; list-style: none; }
 .nav-links a {
@@ -539,6 +540,7 @@ h1, h2, h3, h4, .display {
 .footer-brand { display: flex; align-items: center; gap: 12px; color: #fff; font-family: var(--font-display); font-weight: 700; font-size: 22px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
 .footer-brand .star { width: 20px; height: 20px; background: var(--c-gold); }
 .footer-brand .accent { color: var(--c-red); }
+.footer-brand .brand-i { font-size: .6em; letter-spacing: 0; vertical-align: baseline; }
 .footer-desc { font-size: 14px; max-width: 420px; }
 .footer-links { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; }
 .footer-links a { font-family: var(--font-display); font-weight: 500; text-transform: uppercase; letter-spacing: .5px; font-size: 13px; color: #cfc9bd; padding: 4px 0; }
